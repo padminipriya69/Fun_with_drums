@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(21, 68, 155);
+    margin: 0;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-shadow: 2px 0 rgb(192, 255, 255);
+}
+.container{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.drum{
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 5px rgb(72, 122, 151);
+    margin: 3rem 1%;
+    font-family: 'Hubballi', cursive;
+    color: rgb(183, 0, 255);
+    font-size: 50px;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    color: aqua;
+    font-size: larger;
+    margin-top: 10rem;
+}
+.k{
+    background-image: url("drum_imgs/kick.png");
+    background-size: contain;
+}
+.s{
+    background-image: url("drum_imgs/snare.png");
+    background-size: contain;
+}
+.c{
+    background-image: url("drum_imgs/crash.png");
+    background-size: contain;
+}
+.a{
+    background-image: url("drum_imgs/tom1.png");
+    background-size: contain;
+}
+.d{
+    background-image: url("drum_imgs/t2.png");
+    background-size: contain;
+}
+.j{
+    background-image: url("drum_imgs/tom3.png");
+    background-size: contain;
+}
+.l{
+    background-image: url("drum_imgs/tom4.png");
+    background-size: contain;
+}
+.press{
+    box-shadow: 5px 5px 5px #FF8AAE;
+    opacity: 0.5;
+}
